@@ -9,12 +9,20 @@ All *.tif and *.tfw files in the Source Directory are grouped by file name and z
 ### Installing
 Confirm OSGeo is installed (https://trac.osgeo.org/osgeo4w/).
 
-Copy "zippairs.py" into your OSGeo4W64 folder, then launch the OSGeo4W64 batch file. It can be run from that command line.
+Copy "zippairs.py" into your OSGeo folder, then launch the OSGeo batch file. This script can be run from the OSGeo command line.
 
 ### Example 
+Below is a screenshot of the example directory. (before executing the script)
+
+![source directory before](ZipTifPairs-Before.PNG)
+
+Next we run the script.
+
 	zippairs.py  C:\OSGeo4W64\DirZip
 
-This crawls the source directory and creates 3 zip files.
+The script crawls the source directory and creates a zip file for each name. (as shown below)
+
+![source directory after](ZipTifPairs-After.PNG)
 
 ### Usage
 	usage: zippairs.py SOURCE
