@@ -17,12 +17,12 @@ Copy "zippairs.py" into your OSGeo4W64 folder, then launch the OSGeo4W64 batch f
 This crawls the source directory and creates 3 zip files.
 
 ### Usage
-  usage: zippairs.py SOURCE
-  
-  Zip sets of files in the source directory
-  
-  required arguments:
-    SOURCE      Full directory path
+	usage: zippairs.py SOURCE
+	
+	Zip sets of files in the source directory
+	
+	required arguments:
+	  SOURCE      Full directory path
 
 ## Notes
 
