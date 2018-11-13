@@ -11,10 +11,18 @@ Confirm OSGeo is installed (https://trac.osgeo.org/osgeo4w/).
 
 Copy "zippairs.py" into your OSGeo4W64 folder, then launch the OSGeo4W64 batch file. It can be run from that command line.
 
-### Example: 
-"python  zippairs.py  C:\OSGeo4W64\DirZip"
+### Example 
+	zippairs.py  C:\OSGeo4W64\DirZip
 
 This crawls the source directory and creates 3 zip files.
+
+### Usage
+  usage: zippairs.py SOURCE
+  
+  Zip sets of files in the source directory
+  
+  required arguments:
+    SOURCE      Full directory path
 
 ## Notes
 
