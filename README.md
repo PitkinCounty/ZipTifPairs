@@ -2,12 +2,13 @@
 This python script was written to zip up sets of files in a given directory.
 
 ## Getting Started
-This script was designed to run with OSGeo4W64 installed.
+This script was designed to run with Python installed.
 "SourceDirectory" is a required parameter.
 All *.tif and *.tfw files in the Source Directory are grouped by file name and zipped into an archive by the same name.
+Zip the files together for posting to a public downloads directory. This will often be run when new imagery is available.
 
 ### Installing
-Confirm OSGeo is installed (https://trac.osgeo.org/osgeo4w/).
+Confirm Python is installed (https://trac.osgeo.org/osgeo4w/).
 
 Copy "zippairs.py" into your OSGeo folder, then launch the OSGeo batch file. This script can be run from the OSGeo command line.
 
