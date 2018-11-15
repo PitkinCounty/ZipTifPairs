@@ -25,12 +25,15 @@ The script crawls the source directory and creates a zip file for each name. (as
 ![source directory after](ZipTifPairs-After.PNG)
 
 ### Usage
-	usage: python zippairs.py SOURCE
+	usage: python zippairs.py [-h] SOURCE
 	
 	Zip sets of files in the source directory
 	
 	required arguments:
 	  SOURCE      Full directory path
+	
+	optional arguments:
+	  -h, --help	show this help message and exit
 
 ## Notes
 
