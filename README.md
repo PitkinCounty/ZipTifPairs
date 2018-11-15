@@ -2,15 +2,14 @@
 This python script was written to zip up sets of files in a given directory.
 
 ## Getting Started
-This script was designed to run with Python installed.
-"SourceDirectory" is a required parameter.
 All *.tif and *.tfw files in the Source Directory are grouped by file name and zipped into an archive by the same name.
-Zip the files together for posting to a public downloads directory. This will often be run when new imagery is available.
+
+Pitkin County uses this script for posting to a public downloads directory. This will be run when new imagery is available.
 
 ### Installing
-Confirm Python is installed (https://trac.osgeo.org/osgeo4w/).
+Confirm Python is installed.
 
-Copy "zippairs.py" into your OSGeo folder, then launch the OSGeo batch file. This script can be run from the OSGeo command line.
+Download "zippairs.py" into your python root directory, then call from a python command line.
 
 ### Example 
 Below is a screenshot of the example directory. (before executing the script)
@@ -19,14 +18,14 @@ Below is a screenshot of the example directory. (before executing the script)
 
 Next we run the script.
 
-	zippairs.py  C:\OSGeo4W64\DirZip
+	python zippairs.py  C:\OSGeo4W64\DirZip
 
 The script crawls the source directory and creates a zip file for each name. (as shown below)
 
 ![source directory after](ZipTifPairs-After.PNG)
 
 ### Usage
-	usage: zippairs.py SOURCE
+	usage: python zippairs.py SOURCE
 	
 	Zip sets of files in the source directory
 	
@@ -37,10 +36,10 @@ The script crawls the source directory and creates a zip file for each name. (as
 
 
 ### Questions
-What happens if this is run twice on the same folder?
+What happens if this is run twice on the same folder? **The zip archives are overwritten
 
-How are sub-directories handled?
+How are sub-directories handled? **Requires testing
 
-What if there is a *.tif without a *.tfw?
+What if there is a *.tif without a *.tfw? **Currently the script will create an archive with a single file, but it should skip this archive.
 
-What if files match by name with other extensions? (They are ignored)
+What if files match by name with other extensions? **They are ignored
