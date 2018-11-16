@@ -39,10 +39,11 @@ The script crawls the source directory and creates a zip file for each name. (as
 
 
 ### Questions
-What happens if this is run twice on the same folder? **The zip archives are overwritten
-
-How are sub-directories handled? **Requires testing
-
-What if there is a *.tif without a *.tfw? **Currently the script will create an archive with a single file, but it should skip this archive.
-
-What if files match by name with other extensions? **They are ignored
+* What happens if this is run twice on the same folder?
+  * The zip archives are overwritten
+* How are sub-directories handled?
+  * Requires testing
+* What if there is a *.tif without a *.tfw?
+  * Currently the script will create an archive with a single file, but it should skip this archive.
+* What if files match by name with other extensions?
+ * They are ignored
