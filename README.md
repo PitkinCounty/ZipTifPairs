@@ -41,6 +41,6 @@ The script crawls the source directory and creates a zip file for each name. (as
 * How are sub-directories handled?
   * Requires testing
 * What if there is a *.tif without a *.tfw?
-  * Currently the script will create an archive with a single file, but it should skip this archive.
+  * The archive will be removed if it doesn't have 2 files
 * What if files match by name with other extensions?
- * They are ignored
+  * They are ignored
